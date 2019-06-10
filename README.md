@@ -2,6 +2,8 @@
 
 Little helper module for creating flags with multiple names (e.g. -r, -R &amp; --recursive)
 
+https://godoc.org/github.com/aporcupine/multiflag
+
 ## Usage Example
 
 ```go
