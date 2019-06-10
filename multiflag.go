@@ -46,7 +46,7 @@ func Int(value int, usage string, names ...string) *int {
 	return &v
 }
 
-// Int64 defines an int flag with specified default value, usage string, and names.
+// Int64 defines an int64 flag with specified default value, usage string, and names.
 // The return value is the address of an int64 variable that stores the value of the flag.
 func Int64(value int64, usage string, names ...string) *int64 {
 	var v int64
@@ -56,8 +56,8 @@ func Int64(value int64, usage string, names ...string) *int64 {
 	return &v
 }
 
-// String defines an int flag with specified default value, usage string, and names.
-// The return value is the address of an string variable that stores the value of the flag.
+// String defines a string flag with specified default value, usage string, and names.
+// The return value is the address of a string variable that stores the value of the flag.
 func String(value string, usage string, names ...string) *string {
 	var v string
 	for _, name := range names {
@@ -66,8 +66,8 @@ func String(value string, usage string, names ...string) *string {
 	return &v
 }
 
-// Uint defines an int flag with specified default value, usage string, and names.
-// The return value is the address of an uint variable that stores the value of the flag.
+// Uint defines a uint flag with specified default value, usage string, and names.
+// The return value is the address of a uint variable that stores the value of the flag.
 func Uint(value uint, usage string, names ...string) *uint {
 	var v uint
 	for _, name := range names {
@@ -76,8 +76,8 @@ func Uint(value uint, usage string, names ...string) *uint {
 	return &v
 }
 
-// Uint64 defines an int flag with specified default value, usage string, and names.
-// The return value is the address of an uint64 variable that stores the value of the flag.
+// Uint64 defines a uint64 flag with specified default value, usage string, and names.
+// The return value is the address of a uint64 variable that stores the value of the flag.
 func Uint64(value uint64, usage string, names ...string) *uint64 {
 	var v uint64
 	for _, name := range names {
