@@ -1,3 +1,4 @@
+// Package multiflag implements helper functions for creating flags with multiple names.
 package multiflag
 
 import (
